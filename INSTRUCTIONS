@@ -1,0 +1,7 @@
+INSTRUCTIONS
+============
+
+- Tweak Margin Bar UI. Save or ignore;
+- Right click menu command on projects/solution for ignore or clean settings. Clean
+  settings removes the persistence of the settings so it's useful if you want to
+  uninstall the extension and not use it again.

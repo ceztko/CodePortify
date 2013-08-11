@@ -1,0 +1,13 @@
+TODO
+====
+
+- Port to VS 2012;
+- Allows to *not* perform Tabify/Untabify or new line normalization;
+- Tabify/Untabify pasted text;
+- Allows the configuration to be totally a user setting (saving in ".user" and ".suo"
+  files), optionally allowing the setting to be persisted in the main project/solution
+  file, that is now the default (except for exclusions).
+- Clean Menu Commands icons, the margin bar UI, according to the modifications;
+- Better uninstall registry restore;
+- (Maybe) Optionally configure UTF-8 with BOM or other custom encoding;
+- (Maybe) Untabify/Tabify text after first indentation.

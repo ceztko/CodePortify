@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="CodePortify.MarginBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" d:DesignWidth="852">
+    <Border BorderBrush="Silver" BorderThickness="0,0,0,2" Width="851">
+        <DockPanel Background="Gainsboro" LastChildFill="False">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" DockPanel.Dock="Right" Width="852">
+                <Label Content="Extension:" DockPanel.Dock="Left" FontWeight="Bold" TextOptions.TextFormattingMode="Display" Width="68" />
+                <Label Content=".cpp" DockPanel.Dock="Left" FontWeight="Bold" TextOptions.TextFormattingMode="Display" Width="68" Name="ExtensionLbl" />
+                <ToggleButton Content="Tabify" Height="22" Name="tabifyBtn" Width="81" Checked="tabifyBtn_Checked" />
+                <Border Padding="15,0,0,0" Width="8"></Border>
+                <ToggleButton Content="Untabify" Height="22" Name="untabifyBtn" Width="81" Checked="untabifyBtn_Checked" IsChecked="True" />
+                <Border Padding="15,0,0,0"></Border>
+                <Label TextOptions.TextFormattingMode="Display" DockPanel.Dock="Left" Content="Newline Char"></Label>
+                <Border Padding="15,0,0,0" Width="10" />
+                <ComboBox Height="23" Name="newlineCharCbx" Width="54" SelectedIndex="0">
+                    <ComboBoxItem Content="LF" />
+                    <ComboBoxItem Content="CRLF" />
+                    <ComboBoxItem Content="CR" />
+                </ComboBox>
+                <Border Padding="15,0,0,0"></Border>
+                <ToggleButton Content="Save UTF-8" Height="22" Name="saveUTF8Btn" Width="81" IsChecked="True" />
+                <Border Padding="15,0,0,0" Width="3" />
+                <Separator Height="21" Name="separator1" Width="6" Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}"/>
+                <Border Padding="15,0,0,0" Width="62"></Border>
+                <ComboBox Height="23" Name="saveOptionChbx" SelectedIndex="0" Width="106">
+                    <ComboBoxItem Content="Save and apply" />
+                    <ComboBoxItem Content="Ignore project" />
+                    <ComboBoxItem Content="Ignore extension" />
+                </ComboBox>
+                <Border Padding="15,0,0,0" Width="9" />
+                <Button Name="Accept" Width="65" Height="22">Accept</Button>
+                <Button Name="Hide" BorderBrush="Transparent" Background="Transparent" Margin="8,5,4.5,0" VerticalAlignment="Top" Width="16" Height="16" DockPanel.Dock="Right" ToolTip="Ignore for now">
+                    <Path Name="Path" Stretch="Fill" StrokeThickness="0.5" Stroke="#FF333333" Fill="#FF969696" Data="F1 M 2.28484e-007,1.33331L 1.33333,0L 4.00001,2.66669L 6.66667,6.10352e-005L 8,1.33331L 5.33334,4L 8,6.66669L 6.66667,8L 4,5.33331L 1.33333,8L 1.086e-007,6.66669L 2.66667,4L 2.28484e-007,1.33331 Z " HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                </Button>
+            </StackPanel>
+
+        </DockPanel>
+    </Border>
+</UserControl>

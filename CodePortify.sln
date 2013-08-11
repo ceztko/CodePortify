@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePortify", "CodePortify\CodePortify.csproj", "{32116FA8-222A-43C9-8C0D-AB7777599935}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOCS", "DOCS", "{368546B5-DC75-4279-B5FD-321B2FA5A3AE}"
+	ProjectSection(SolutionItems) = preProject
+		BUILD = BUILD
+		INSTALL = INSTALL
+		INSTRUCTIONS = INSTRUCTIONS
+		LICENSE = LICENSE
+		README = README
+		TODO = TODO
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32116FA8-222A-43C9-8C0D-AB7777599935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32116FA8-222A-43C9-8C0D-AB7777599935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32116FA8-222A-43C9-8C0D-AB7777599935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32116FA8-222A-43C9-8C0D-AB7777599935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
