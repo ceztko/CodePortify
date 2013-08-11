@@ -5,21 +5,21 @@ CodePortify is a Visual Studio extension that can normalize text files in severa
 ways. The features are:
 - tabify or untabify;
 - normalize new lines (CRLF, LF or CR);
-- defaulting saving to UTF-8 (without Bom).
+- default saving to UTF-8 (without Bom).
 
 It can also normalize new lines on pasted text!
 
-It works ona a per-project/extension basis: this does mean that you can configure
+It works on a per-project/extension basis: this does mean that you can configure
 the behavior of normalization for each extension of your projects, saving the
 configuration in the project files or ".sln" solution file.  Also, you can
 configure a "do nothing" bevaviour excluding singles extensions or a whole project.
-Excuding a project offers a very clean behaviour: the excusion is persisted in
+Excuding a project is a storage clean operation: the excusion is persisted in
 the ".user" and ".suo" user files respectively for the the projects and the solutions.
-this means that you can safely commit code for shared projects without cluttering
-if you don't use CodePortify with them.
+This means that you can safely commit code for shared projects without clutter
+if you don't use CodePortify on them.
 
-To not interfer with other related mecanisms or because or to offer a smoother
-experience, CodePortify take control of the following Visual Studio settings:
+To not interfer with other related mecanisms or to offer a smoother experience,
+CodePortify takes control of the following Visual Studio settings:
 - Enviromnent -> Documents -> "Check for consistent line endings on load", setting it to
   False
 - Text Editor -> General -> "Auto-detect UTF-8 encoding without signature", setting it
