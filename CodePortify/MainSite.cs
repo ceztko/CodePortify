@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright (c) 2013 Francesco Pretto
+// This file is subject to the MS-PL license
+
+using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.ComponentModel.Design;

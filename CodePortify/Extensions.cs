@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright (c) 2013-2014 Francesco Pretto
+// This file is subject to the MIT license
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
